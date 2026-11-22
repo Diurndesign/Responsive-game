@@ -1,4 +1,4 @@
-# Kami s’adapte · responsive-game
+# Kami s’adapte · Responsive-game
 
 Un jeu pour apprendre le responsive en écrivant du vrai code, pensé pour les personnes qui veulent **commencer une formation dans le web** : aucune connaissance n’est nécessaire.
 
@@ -6,7 +6,7 @@ Un caméléon s’adapte à tout ce qui l’entoure. Une page web aussi doit s�
 
 ## Jouer
 
-- **En ligne** : active GitHub Pages (Settings › Pages › *Deploy from a branch*, choisis la branche du jeu et le dossier `/ (root)`). Le jeu sera disponible à l’adresse `https://diurndesign.github.io/responsive-game/`.
+- **En ligne** : active GitHub Pages (Settings › Pages › *Deploy from a branch*, choisis la branche du jeu et le dossier `/ (root)`). Le jeu sera disponible à l’adresse `https://diurndesign.github.io/Responsive-game/`.
 - **En local** : ouvre le dossier avec l’extension Live Server de VS Code (ou n’importe quel petit serveur web). Ouvrir `index.html` en double-cliquant peut bloquer l’aperçu dans certains navigateurs.
 
 La progression est enregistrée dans le navigateur de chaque joueur (localStorage).
@@ -95,7 +95,7 @@ L’**Espace formateur** (bouton en bas de page) est celui de Mission Bip : `htt
 | [Mission Kami](https://diurndesign.github.io/Css_game/) | CSS | Kami, le caméléon |
 | [Kami et les lucioles](https://diurndesign.github.io/Flexbox-game/) | CSS Flexbox | Kami |
 | [Le potager de Kami](https://diurndesign.github.io/Grid-game/) | CSS Grid | Kami |
-| [Kami s’adapte](https://diurndesign.github.io/responsive-game/) | Responsive | Kami |
+| [Kami s’adapte](https://diurndesign.github.io/Responsive-game/) | Responsive | Kami |
 | [Mission Bip](https://diurndesign.github.io/javascript_game/) | JavaScript | Bip, le robot |
 
 ---
