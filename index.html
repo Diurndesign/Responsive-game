@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chargement…</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="jeu.css?v=20261125">
+<link rel="stylesheet" href="theme.css?v=20261125">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="topbar">
+  <button class="brand" id="brand" type="button" aria-label="Retour à la carte"><span id="brand-mascot"></span><span id="brand-name"></span></button>
+  <nav class="nav" aria-label="Navigation">
+    <button type="button" id="nav-discover">Découvrir</button>
+    <button type="button" id="nav-map">Carte</button>
+    <button type="button" id="nav-lexique">Lexique</button>
+    <button type="button" id="nav-notebook">Carnet</button>
+    <button type="button" id="nav-sandbox">Bac à sable</button>
+  </nav>
+  <div class="stats" aria-live="polite"><span><span class="star">★</span> <span id="stat-stars">0</span><span class="label"> / <span id="stat-max">0</span></span></span><span><span id="stat-done">0</span><span class="label"> / <span id="stat-total">0</span> missions</span></span></div>
+</header>
+
+<main>
+  <section id="view-map"></section>
+  <section id="view-discover" hidden></section>
+  <section id="view-level" hidden></section>
+  <section id="view-notebook" hidden></section>
+  <section id="view-lexique" hidden></section>
+</main>
+<footer class="pied-jeu"><div class="pied-jeu-in"><span id="footer-text"></span><nav class="serie" aria-label="La série de jeux">
+  <a href="https://diurndesign.github.io/Html_game/">HTML</a>
+  <a href="https://diurndesign.github.io/Css_game/">CSS</a>
+  <a href="https://diurndesign.github.io/Flexbox-game/">Flexbox</a>
+  <a href="https://diurndesign.github.io/Grid-game/">Grid</a>
+  <a href="https://diurndesign.github.io/responsive-game/">Responsive</a>
+  <a href="https://diurndesign.github.io/javascript_game/">JavaScript</a>
+  <a href="https://diurndesign.github.io/javascript_avance/">Bip Agence</a>
+  <a class="atelier" href="https://diurndesign.github.io/atelier/#code">Atelier ↗</a>
+  <a class="btn btn-small" href="https://diurndesign.github.io/javascript_game/admin.html" target="_blank" rel="noopener">Espace formateur</a>
+</nav></div></footer>
+
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="dialog" id="dialog"></div></div>
+<canvas id="confetti" hidden></canvas>
+<noscript><p style="padding:24px">Ce jeu a besoin de JavaScript pour fonctionner.</p></noscript>
+
+<!-- sauvegarde en ligne : Firebase, le même projet et le même compte que Mission Bip -->
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js" defer></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js" defer></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js" defer></script>
+<script src="cloud.js?v=20261125" defer></script>
+<script src="mascot.js?v=20261125" defer></script>
+<script src="engine.js?v=20261125" defer></script>
+<script src="game.js?v=20261125" defer></script>
+</body>
+</html>

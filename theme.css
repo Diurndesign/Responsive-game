@@ -1,0 +1,12 @@
+/* Kami s'adapte (Responsive) : Kami en vert, l’action en bleu pétrole. */
+:root {
+  --bg: #E9F1F5;
+  --grid: rgba(27, 36, 64, 0.055);
+  --mascot: #3DCB8B;
+  --mascot-deep: #1E9E66;
+  --mascot-soft: #E1F7EC;
+  --mascot-ink: #1B2440;
+  --action: #0B6E99;
+  --action-soft: #E1F0F7;
+  --action-ink: #FFFFFF;
+}
